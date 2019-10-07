@@ -1,0 +1,32 @@
+nav {
+  width: 980px;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    height: 42px;
+    width: 92px;
+    border: 2px solid site-white;
+  }
+
+  .Links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      color: $site-white;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    span {
+      max-resolution: 0 10px;
+      color: $site-pink;
+      font-size: 28px;
+    }
+  }
+}
