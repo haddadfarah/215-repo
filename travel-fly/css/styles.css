@@ -393,8 +393,7 @@ nav {
   height: auto;
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1); }
-
-img {
-  height: 25px;
-  width: 55px;
-  margin-left: -12px; }
+  .social-media img {
+    height: 25px;
+    width: 55px;
+    margin-left: -12px; }
