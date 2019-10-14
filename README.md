@@ -2,7 +2,7 @@
 
 ## This is the home forlder for all my projects.
 
-I will make changes to this readme if I do a lot of stuff.
+I will make changes to this README if I do a lot of stuff.
 
-Here is homework 2 link:
-https://haddadfarah.github.io/215-repo/eventsy
+Here is the link to homework 2:
+https://haddadfarah.github.io/215-repo/travel-fly
