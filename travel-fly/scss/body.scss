@@ -1,0 +1,248 @@
+.three-columns {
+  max-width: 900px;
+  padding: 1px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.column1 {
+  width: 236px;
+  height: 304px;
+  position: relative;
+  height: auto;
+  padding: 5px;
+}
+
+.column2 {
+  width: 236px;
+  height: 304px;
+  position: relative;
+  height: auto;
+  padding: 5px;
+}
+
+.column3 {
+  width: 236px;
+  height: 304px;
+  position: relative;
+  height: auto;
+  padding: 5px;
+}
+
+.destination-pic {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.destination-name {
+  position: relative;
+  font-size: 60px;
+  color: $site-white;
+  text-align: center;
+
+  .price {
+    color: $site-white;
+    font-size: 30px;
+  }
+
+  .button {
+    padding: 10px 25px;
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Amatic SC', cursive;
+  }
+}
+.form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-title {
+  font-size: 60px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.country-input-container {
+  margin-right: 25px;
+}
+
+.left-row {
+  margin-right: 25px;
+}
+
+.name-input {
+  width: 365px;
+  height: 58px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.country-input {
+  width: 365px;
+  height: 58px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.email-input {
+  width: 100%;
+  height: 58px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+.hotel-input-container {
+  width: 100%;
+}
+
+.date-input-container {
+  width: 100%;
+}
+
+.hotel-input {
+  width: 100%;
+  height: 58px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.hotel-label {
+  width: 116px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.date-input {
+  width: 100%;
+  height: 58px;
+  padding-left: 20px;
+}
+
+.right-row {
+  width: 100%;
+}
+
+.name-email-row {
+  display: flex;
+}
+
+.country-hotel-row {
+  display: flex;
+}
+
+.hotel-date-container {
+  display: flex;
+}
+
+.room-type-container {
+  display: flex;
+  height: 90px;
+}
+
+.room-type {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  float: right;
+  margin-left: 20px;
+}
+
+.adult-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  float: right;
+}
+
+.adult-selection {
+  display: flex;
+  width: 102px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+.adult-input {
+  align-items: center;
+  width: 103px;
+  height: 58px;
+  padding-left: 30px;
+}
+
+.children-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.children-selection {
+  display: flex;
+  width: 150px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+  padding-left: 30px;
+}
+.child-input {
+  align-items: center;
+  width: 103px;
+  height: 58px;
+  padding-left: 30px;
+}
+
+.rooms-input {
+  width: 103px;
+  height: 58px;
+  padding-left: 30px;
+}
+
+.room-selection {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+  padding-left: 65px;
+}
+
+.message-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.message-input {
+  display: block;
+  width: 100%;
+  height: 192px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.submit-button {
+  padding-top: 40px;
+  padding-bottom: 100px;
+
+  .submit {
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 48%;
+    font-family: 'Amatic SC', cursive;
+  }
+}
