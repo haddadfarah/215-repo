@@ -4,5 +4,5 @@
 
 I will make changes to this README if I do a lot of stuff.
 
-Here is the link to homework 2:
+Here is the link to homework 3:
 https://haddadfarah.github.io/215-repo/travel-fly
