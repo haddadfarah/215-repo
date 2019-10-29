@@ -52,20 +52,20 @@ p {
         color: #ffffff;
         font-size: 60px;
         font-weight: lighter;
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: 'Roboto', sans-serif; }
       .hero-wrapper .hero .callout .desc {
         color: #ffffff;
         margin-bottom: 50px;
         font-style: italic;
         font-size: 20px;
-        font-family: 'Amatic SC', cursive; }
+        font-family: 'Lato', sans-serif; }
       .hero-wrapper .hero .callout .site-button {
         padding: 10px 25px;
         background-color: #79addc;
         text-decoration: none;
         color: #ffffff;
         font-size: 15px;
-        font-family: 'Amatic SC', cursive; }
+        font-family: 'Lato', sans-serif; }
 
 nav {
   width: 980px;
@@ -98,7 +98,7 @@ nav {
       color: #ffffff;
       font-size: 15px;
       text-decoration: none;
-      font-family: 'Amatic SC', cursive; }
+      font-family: 'Lato', sans-serif; }
     nav .links span {
       margin: 0 10px;
       color: #79addc;
@@ -107,7 +107,7 @@ nav {
 
 .three-columns {
   max-width: 900px;
-  padding: 1px 0 0 0;
+  padding: 0 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,37 +121,72 @@ nav {
   width: 236px;
   height: 304px;
   position: relative;
-  height: auto;
-  padding: 5px; }
+  height: auto; }
 
 .column2 {
   width: 236px;
   height: 304px;
   position: relative;
-  height: auto;
-  padding: 5px; }
+  height: auto; }
 
 .column3 {
   width: 236px;
   height: 304px;
   position: relative;
-  height: auto;
-  padding: 5px; }
+  height: auto; }
 
-.destination-pic {
+.destination-pic1 {
   width: 236px;
   height: 304px;
   position: absolute;
-  margin-top: -50px; }
+  margin-top: -50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-01.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.destination-pic2 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-02.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.destination-pic3 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-03.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+img {
+  border: 0; }
 
 .destination-name {
   position: relative;
   font-size: 60px;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
   .destination-name .price {
     color: #ffffff;
-    font-size: 30px; }
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif; }
   .destination-name .button {
     padding: 10px 25px;
     background-color: #79addc;
@@ -159,7 +194,7 @@ nav {
     color: #ffffff;
     font-size: 16px;
     border-radius: 30px;
-    font-family: 'Amatic SC', cursive; }
+    font-family: 'Lato', sans-serif; }
 
 .form {
   max-width: 900px;
@@ -168,7 +203,9 @@ nav {
 .form-title {
   font-size: 60px;
   text-align: left;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  margin-top: -100px;
+  font-family: 'Roboto', sans-serif; }
 
 .country-input-container {
   margin-right: 25px; }
@@ -181,21 +218,21 @@ nav {
   height: 58px;
   padding-left: 20px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .country-input {
   width: 365px;
   height: 58px;
   padding-left: 20px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .email-input {
   width: 100%;
   height: 58px;
   padding-left: 20px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .hotel-input-container {
   width: 100%; }
@@ -208,7 +245,7 @@ nav {
   height: 58px;
   padding-left: 20px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .hotel-label {
   width: 116px;
@@ -219,12 +256,14 @@ nav {
   -ms-flex-align: center;
   align-items: center;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .date-input {
   width: 100%;
   height: 58px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; }
 
 .right-row {
   width: 100%; }
@@ -277,7 +316,7 @@ nav {
   display: flex;
   width: 102px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .adult-input {
   -webkit-box-align: center;
@@ -285,7 +324,9 @@ nav {
   align-items: center;
   width: 103px;
   height: 58px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; }
 
 .children-container {
   display: -webkit-box;
@@ -302,62 +343,81 @@ nav {
   display: flex;
   width: 150px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Lato', sans-serif;
   padding-left: 30px; }
 
-.child-input {
+.children-input {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   width: 103px;
   height: 58px;
-  padding-left: 30px; }
+  padding-left: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; }
 
-.rooms-input {
-  width: 103px;
-  height: 58px;
-  padding-left: 30px; }
+.room-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 90px; }
 
 .room-selection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 150px;
   font-size: 18px;
-  font-family: 'Amatic SC', cursive;
-  padding-left: 65px; }
+  font-family: 'Lato', sans-serif;
+  padding-left: 30px; }
+
+.rooms-input {
+  width: 103px;
+  height: 58px;
+  padding-left: 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; }
 
 .message-container {
   display: inline-block;
-  width: 100%; }
-
-.message-input {
-  display: block;
   width: 100%;
-  height: 192px;
-  padding-left: 20px;
-  font-size: 18px;
-  font-family: 'Amatic SC', cursive; }
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; }
+  .message-container textarea {
+    display: block;
+    width: 100%;
+    height: 192px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Amatic SC'; }
 
 .submit-button {
   padding-top: 40px;
   padding-bottom: 100px; }
-  .submit-button .submit {
-    background-color: #79addc;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    border-radius: 30px;
-    height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 auto;
-    padding-left: 48%;
-    font-family: 'Amatic SC', cursive; }
+
+.submit {
+  background-color: #79addc;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 30px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 48%;
+  font-family: 'Lato', sans-serif; }
 
 .footer {
   height: 100px;
@@ -382,7 +442,9 @@ nav {
   padding-top: 5px; }
 
 .footer-text {
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px; }
 
 .footer-logo {
   width: 96px;

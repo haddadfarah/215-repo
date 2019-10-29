@@ -7,9 +7,9 @@
     <title>travel-fly | home</title>
 
     <link
-      href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -43,7 +43,8 @@
 
     <section class="three-columns">
       <div class="column1">
-        <img class="destination-pic" src="images/tour/tour-01.jpg" />
+       <img class="destination-pic1" />
+      
 
         <div class="destination-name">
           <p>ISRAEL</p>
@@ -53,7 +54,7 @@
       </div>
 
       <div class="column2">
-        <img class="destination-pic" src="images/tour/tour-02.jpg" />
+        <img class="destination-pic2" />
 
         <div class="destination-name">
           <p>U.S.A</p>
@@ -62,7 +63,7 @@
         </div>
       </div>
       <div class="column3">
-        <img class="destination-pic" src="images/tour/tour-03.jpg" />
+        <img class="destination-pic3"/>
 
         <div class="destination-name">
           <p>AUSTRAILIA</p>
@@ -111,19 +112,41 @@
         <div class="room-type-container">
           <div class="adult-container">
             <label class="adult-selection" for="adult">Adult</label>
-            <input class="adult-input" type="number" placeholder="2" />
+            <select class="adult-input">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            
           </div>
           <div class="children-container">
             <label class="children-selection" for="child">Children</label>
-            <input class="child-input" type="number" />
+            <select class="children-input">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
           </div>
-          <div class="room-type">
+          <div class="room-container">
             <label class="room-selection" for="rooms">Rooms</label>
+            <!--
             <input class="rooms-input" type="number" placeholder="1" />
+            -->
+          <!--Try replacing the select -->
+            <select class="rooms-input">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+
           </div>
         </div>
         <div class="message-container">
-          <input class="message-input" type="text" placeholder="message..." />
+          <textarea rows="4" cols="50" name="comment" placeholder="message"></textarea>
+            
         </div>
         <br />
         <div class="submit-button">
