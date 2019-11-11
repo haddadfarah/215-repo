@@ -2,14 +2,16 @@
   width: 100%;
   height: 500px;
   background-color: $site-white;
+  // background-size: cover;
 
   .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1280px;
+    @include center-content();
+    // width: 1280px;
     height: 100%;
-    margin: 0 auto;
+    // margin: 0 auto;
 
     background-image: linear-gradient(
         to right,

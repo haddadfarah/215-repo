@@ -11,6 +11,11 @@
 
       <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
 
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -20,12 +25,17 @@
           <div class="logo">
             <img src="images/logo/logo-white.svg" alt="logo" />
           </div>
-          <div class="links">
+          <div class="link-wrap">
+            <div class="links">
             <a href="#">home</a><span> | </span> <a href="#">about</a
             ><span> | </span> <a href="#">tours</a><span> | </span>
             <a href="#">special offers</a><span> | </span> <a href="#">blog</a
             ><span> | </span>
             <a href="#">contact</a>
+          </div>
+            <div class="navicon">
+              <i class="fas fa-bars"></i>
+            </div>
           </div>
         </nav>
 
@@ -131,10 +141,6 @@
           </div>
           <div class="room-container">
             <label class="room-selection" for="rooms">Rooms</label>
-            <!--
-            <input class="rooms-input" type="number" placeholder="1" />
-            -->
-          <!--Try replacing the select -->
             <select class="rooms-input">
                 <option value="0">0</option>
                 <option value="1">1</option>
