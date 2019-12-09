@@ -1,0 +1,228 @@
+nav.pages {
+  position: relative;
+  z-index: 99;
+  width: 80%;
+  height: 92px;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  .logo2 {
+    height: 42px;
+    width: 92px;
+  }
+
+  .link-wrap2 {
+    display: flex;
+    align-items: center;
+
+    .links2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $site-black;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+      }
+
+      span {
+        margin: 0 10px;
+        color: $site-blue;
+        font-size: 22px;
+        font-weight: lighter;
+      }
+    }
+
+    .navicon {
+      display: none;
+      color: $site-white;
+      font-size: 120%;
+      cursor: pointer;
+    }
+  }
+}
+
+.tours3 {
+  position: relative;
+  padding-top: 50px;
+  width: 80%;
+  height: 415px;
+  max-width: 1022px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.5),
+      rgba($site-black, 0.5)
+    ),
+    url('../images/tour/tour-03.jpg');
+
+  main-picture3 {
+    // margin-top: 50px;
+  }
+
+  .tours3-title {
+    // position: relative;
+    // align-items: center;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    // transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: $site-white;
+    text-align: center;
+    // justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .tours3-info {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: $site-white;
+    position: absolute;
+    right: 1%;
+    top: 90%;
+  }
+}
+
+.threecolumns1-03 {
+  max-width: 1025px;
+  // padding: 0 0 0 0;
+  display: flex;
+
+  justify-content: space-between;
+  margin: 0 auto;
+  //   height: 1000px;
+  margin-top: 105px;
+  min-height: 304px;
+  //   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  //   margin-bottom: -55px;
+  // margin-top: 19px;
+
+  .column01-03 {
+    margin-top: -16px;
+    width: 298px;
+    height: 347px;
+    position: relative;
+    height: auto;
+
+    .destination-img1-03 {
+      width: 298px;
+      height: 347px;
+      //   position: absolute;
+      margin-top: -50px;
+      background-image: url('../images/tour/tour-aus/aus-tour-01.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .column02-03 {
+    margin-top: -16px;
+    width: 298px;
+    height: 347px;
+    position: relative;
+    height: auto;
+
+    .destination-img2-03 {
+      width: 298px;
+      height: 347px;
+      //   position: absolute;
+      margin-top: -50px;
+      background-image: url('../images/tour/tour-aus/aus-tour-02.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .column03-03 {
+    margin-top: -16px;
+    width: 298px;
+    height: 347px;
+    position: relative;
+    height: auto;
+
+    .destination-img3-03 {
+      width: 298px;
+      height: 347px;
+      //   position: absolute;
+      margin-top: -50px;
+      background-image: url('../images/tour/tour-aus/aus-tour-03.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+img {
+  border: 0;
+}
+
+.aboutPage {
+  //   margin-bottom: -20px;
+  //   max-height: -25px;
+  height: 25%;
+  .about-title {
+    margin-bottom: -25px;
+    // padding-bottom: -1000px;
+
+    h1 {
+      font-size: 60px;
+      // border-bottom: 2px solid $site-black;
+
+      border-bottom: $site-black;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 50;
+      letter-spacing: 5px;
+    }
+    h1.border2 {
+      border-bottom: solid;
+    }
+
+    p {
+      font-size: 16px;
+      //   margin-bottom: -20px;
+    }
+
+    p.day1 {
+      // margin-bottom: -50px;
+    }
+  }
+}
+
+.aboutPage2 {
+  max-width: 1020px;
+  margin: 0 auto;
+  //   min-height: 304px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+
+  .button {
+    padding: 10px 25px;
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 45%;
+  }
+}

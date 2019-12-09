@@ -1,0 +1,359 @@
+nav.pages {
+  position: relative;
+  z-index: 99;
+  width: 80%;
+  height: 92px;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  .logo2 {
+    height: 42px;
+    width: 92px;
+  }
+
+  .link-wrap2 {
+    display: flex;
+    align-items: center;
+
+    .links2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $site-black;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+      }
+
+      span {
+        margin: 0 10px;
+        color: $site-blue;
+        font-size: 22px;
+        font-weight: lighter;
+      }
+    }
+
+    .navicon {
+      display: none;
+      color: $site-white;
+      font-size: 120%;
+      cursor: pointer;
+    }
+  }
+}
+
+.tours {
+  //   margin-top: 20px;
+  position: relative;
+  padding-top: 50px;
+  //   z-index: 99;
+  width: 80%;
+  height: 200px;
+
+  //   width: 100%;
+  max-width: 1022px;
+  // padding: 0 0 0 0;
+  //   display: flex;
+
+  //   justify-content: space-around;
+  margin: 0 auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  //   position: relative;
+  //   z-index: 99;
+  //   width: 80%;
+  //   height: 92px;
+  //   border-bottom: 2px solid $site-white;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tours-header.jpg');
+
+  main-image {
+    // margin-top: 50px;
+  }
+
+  .tours-title {
+    // position: relative;
+    // align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: $site-white;
+    text-align: center;
+    // justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.three-columns1 {
+  max-width: 900px;
+  padding: 0 0 0 0;
+  display: flex;
+
+  justify-content: space-between;
+  margin: 0 auto;
+  //   height: 1000px;
+  margin-top: 105px;
+  min-height: 304px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -55px;
+}
+
+.column-1 {
+  width: 236px;
+  height: 304px;
+  position: relative;
+  height: auto;
+}
+
+.column-2 {
+  width: 236px;
+  height: 304px;
+  position: relative;
+  height: auto;
+}
+
+.column-3 {
+  width: 236px;
+  height: 304px;
+  position: relative;
+  height: auto;
+}
+
+.destination-picture1 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-01.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination-picture2 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-02.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination-picture3 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-03.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  border: 0;
+}
+
+.destinationName {
+  position: relative;
+  // align-items: center;
+  font-size: 60px;
+  color: $site-white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  .price {
+    color: $site-white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+  }
+
+  .button {
+    padding: 10px 25px;
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+.destination-picture4 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-04.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destinationName2 {
+  position: relative;
+  // align-items: center;
+  font-size: 60px;
+  color: $site-white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  .price2 {
+    color: $site-white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+  }
+
+  .button2 {
+    padding: 10px 25px;
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+p.newZealand {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.destination-picture5 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-05.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination-picture6 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-06.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination-picture7 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-07.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination-picture8 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-08.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.destination-picture9 {
+  width: 236px;
+  height: 304px;
+  position: absolute;
+  margin-top: -50px;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url('../images/tour/tour-09.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  margin-top: 100px;
+}

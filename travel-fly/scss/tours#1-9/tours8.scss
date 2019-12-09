@@ -1,0 +1,212 @@
+nav.pages {
+  position: relative;
+  z-index: 99;
+  width: 80%;
+  height: 92px;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  .logo2 {
+    height: 42px;
+    width: 92px;
+  }
+
+  .link-wrap2 {
+    display: flex;
+    align-items: center;
+
+    .links2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+      a {
+        color: $site-black;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+      }
+
+      span {
+        margin: 0 10px;
+        color: $site-blue;
+        font-size: 22px;
+        font-weight: lighter;
+      }
+    }
+
+    .navicon {
+      display: none;
+      color: $site-white;
+      font-size: 120%;
+      cursor: pointer;
+    }
+  }
+}
+
+.tours8 {
+  position: relative;
+  padding-top: 50px;
+  width: 80%;
+  height: 415px;
+  max-width: 1022px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.5),
+      rgba($site-black, 0.5)
+    ),
+    url('../images/tour/tour-08.jpg');
+
+  main-picture8 {
+  }
+
+  .tours8-title {
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    font-size: 80px;
+    color: $site-white;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .tours8-info {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: $site-white;
+    position: absolute;
+    right: 1%;
+    top: 90%;
+  }
+}
+
+.threecolumns1-08 {
+  max-width: 1025px;
+
+  display: flex;
+
+  justify-content: space-between;
+  margin: 0 auto;
+
+  margin-top: 105px;
+  min-height: 304px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .column01-08 {
+    margin-top: -16px;
+    width: 298px;
+    height: 347px;
+    position: relative;
+    height: auto;
+
+    .destination-img1-08 {
+      width: 298px;
+      height: 347px;
+
+      margin-top: -50px;
+      background-image: url('../images/tour/tour-canada/canada-tour-01.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .column02-08 {
+    margin-top: -16px;
+    width: 298px;
+    height: 347px;
+    position: relative;
+    height: auto;
+
+    .destination-img2-08 {
+      width: 298px;
+      height: 347px;
+
+      margin-top: -50px;
+      background-image: url('../images/tour/tour-canada/canada-tour-02.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .column03-08 {
+    margin-top: -16px;
+    width: 298px;
+    height: 347px;
+    position: relative;
+    height: auto;
+
+    .destination-img3-08 {
+      width: 298px;
+      height: 347px;
+
+      margin-top: -50px;
+      background-image: url('../images/tour/tour-canada/canada-tour-03.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+img {
+  border: 0;
+}
+
+.aboutPage {
+  height: 25%;
+  .about-title {
+    margin-bottom: -25px;
+
+    h1 {
+      font-size: 60px;
+      border-bottom: $site-black;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 50;
+      letter-spacing: 5px;
+    }
+    h1.border2 {
+      border-bottom: solid;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.aboutPage2 {
+  max-width: 1020px;
+  margin: 0 auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+
+  .button {
+    padding: 10px 25px;
+    background-color: $site-blue;
+    text-decoration: none;
+    color: $site-white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 45%;
+  }
+}
